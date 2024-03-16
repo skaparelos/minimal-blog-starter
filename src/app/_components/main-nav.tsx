@@ -23,14 +23,14 @@ export function MainNav() {
         >
           Blog
         </Link>
-        {/* <Link
-          href="https://github.com/skaparelos"
+        <Link
+          href="https://github.com/skaparelos/minimal-blog-starter"
           className={cn(
-            "hidden text-foreground/60 transition-colors hover:text-foreground/80 lg:block"
+            "text-foreground/60 transition-colors hover:text-foreground/80"
           )}
         >
           GitHub
-        </Link> */}
+        </Link>
       </nav>
     </div>
   )
